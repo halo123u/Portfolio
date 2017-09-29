@@ -337,19 +337,22 @@ html, body {
 }
 
 .projects{
-  border: 5px solid black;
   display: flex;
   display: -webkit-flex;
   height: 70vh;
 }
 
 .project {
-  border: 3px solid red;
+  border-left: solid 2px #058391;
+  padding: 3%; 
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.project h2{
+  color: #058391;
 }
 
 .projectnav {
@@ -390,4 +393,11 @@ html, body {
 .livepreview{
   height: 45%;
   width: 75%;
+}
+
+.project_title{
+  font-weight: 400;
+}
+.sec-A h6{
+  text-align: center;
 }
