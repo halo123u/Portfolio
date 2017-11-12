@@ -85,7 +85,7 @@ html, body {
   display: flex;
   flex-direction: column; 
 }
-.topnav a h6 {
+a h6 {
   display: inline;
   font-size: 9px;
   margin: -17px;
@@ -394,6 +394,8 @@ html, body {
 .projectnav a {
   text-decoration: none;
   color: inherit;
+  display: flex;
+  flex-direction: column;
 }
 
 .livepreview{
