@@ -82,6 +82,13 @@ html, body {
 .topnav a {
   text-decoration: none;
   color: inherit;
+  display: flex;
+  flex-direction: column; 
+}
+.topnav a h6 {
+  display: inline;
+  font-size: 9px;
+  margin: -17px;
 }
 .head {
   color: #eaeaea;
@@ -405,15 +412,6 @@ html, body {
 and (min-device-width : 375px)
 and (max-device-width : 667px)
 and (orientation : portrait) {
-  .topnav a {
-    display: flex;
-    flex-direction: column;
-  }
-  a h6 {
-    display: inline;
-    font-size: 9px;
-    margin: -17px;
-  }
 
   .head {
     font-size: 40px;
